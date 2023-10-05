@@ -9,11 +9,20 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  introspection:
+    git: https://github.com/enspyrco/introspection
+  perception:
+    git: https://github.com/enspyrco/perception
+  
+  flutterfire_firebase_auth_for_perception:
+    git: https://github.com/enspyrco/flutterfire_firebase_auth_for_perception
+  platform_default_sign_in_for_perception:
+    git: https://github.com/enspyrco/platform_default_sign_in_for_perception
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^2.0.0
-
-flutter:
-  uses-material-design: true
+  enspyr_lints:
+    git: https://github.com/enspyrco/enspyr_lints
+  test_utils_for_perception:
+    git: https://github.com/enspyrco/test_utils_for_perception
