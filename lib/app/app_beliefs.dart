@@ -41,7 +41,7 @@ class AppBeliefs
 
   @override
   toJson() => {
-        'auth': identity.toJson(),
+        'identity': identity.toJson(),
         'error': error.toJson(),
         'framing': framing.toJson(),
       };
