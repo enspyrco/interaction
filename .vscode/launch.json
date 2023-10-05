@@ -1,0 +1,37 @@
+{
+  "configurations": [
+    {
+      "name": "vanilla",
+      "request": "launch",
+      "type": "dart",
+      "program": "${workspaceFolder:interaction}/lib/main.dart"
+    },
+    {
+      "name": "in-app-introspection",
+      "request": "launch",
+      "type": "dart",
+      "program": "${workspaceFolder:interaction}/lib/main.dart",
+      "toolArgs": [
+        "--dart-define",
+        "IN-APP-INTROSPECTION=true"
+      ]
+    },
+    {
+      "name": "devtools-introspection",
+      "request": "launch",
+      "type": "dart",
+      "program": "${workspaceFolder:interaction}/lib/main.dart",
+      "toolArgs": [
+        "--dart-define",
+        "DEVTOOLS-INTROSPECTION=true"
+      ]
+    },
+    {
+      "name": "web",
+      "request": "launch",
+      "type": "dart",
+      "deviceId": "chrome",
+      "args": ["--web-hostname", "localhost", "--web-port", "5000"]
+    },
+  ]
+}
