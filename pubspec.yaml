@@ -16,10 +16,8 @@ dependencies:
   perception:
     git: https://github.com/enspyrco/perception
   
-  flutterfire_firebase_auth_for_perception:
-    git: https://github.com/enspyrco/flutterfire_firebase_auth_for_perception
-  platform_default_sign_in_for_perception:
-    git: https://github.com/enspyrco/platform_default_sign_in_for_perception
+  default_flutterfire_identity_for_perception:
+    git: https://github.com/enspyrco/default_flutterfire_identity_for_perception
 
 dev_dependencies:
   flutter_test:

@@ -1,3 +1,5 @@
+import 'dart:developer';
+
 import 'package:perception/perception.dart';
 
 import '../app/app_beliefs.dart';
@@ -12,7 +14,7 @@ class ObservingSelfProfile extends Consideration<AppBeliefs> {
     // beliefSystem.conclude(
     //     IdentityUpdates(checkingIdenState: OpeningDirectoryState.opening));
 
-    print(_selfId);
+    log(_selfId);
 
     // var memorySystem = locate<MemorySystem>();
 

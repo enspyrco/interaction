@@ -1,10 +1,10 @@
 import 'dart:async';
 
+import 'package:default_flutterfire_identity_for_perception/default_flutterfire_identity_for_perception.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
-import 'package:flutterfire_firebase_auth_for_perception/flutterfire_firebase_auth_for_perception.dart';
-import 'package:perception/perception.dart';
 import 'package:introspection/introspection.dart';
+import 'package:perception/perception.dart';
 
 import '../firebase_options.dart';
 import 'app_beliefs.dart';
@@ -25,7 +25,14 @@ Future<void> setupPriors({required Widget initialScreen}) async {
   // Perform individual package initialization.
   initializeErrorHandling<AppBeliefs>();
   initializeIntrospection<AppBeliefs>();
-  initializeFlutterfireFirebaseAuth<AppBeliefs>(initialScreen: initialScreen);
+
+  initializeDefaultFlutterfireIdentity<AppBeliefs>(
+      initialScreen: initialScreen);
+
+  // initializeFlutterfireFirebaseAuth<AppBeliefs>(
+  //   signInScreen: SignInScreen<S>(),
+  //   initialScreen: initialScreen,
+  // );
 
   initializeFraming<AppBeliefs>(
     (
@@ -62,7 +69,8 @@ class OriginOfPerception extends StatelessWidget {
           flex: 1,
           child: FramingBuilder<AppBeliefs>(
             onInit: (beliefSystem) {
-              beliefSystem.consider(const ObservingIdentity<AppBeliefs>());
+              beliefSystem.consider(const ObservingIdentity<AppBeliefs,
+                  FlutterfireFirebaseAuthSubsystem>());
             },
           ),
         ),
