@@ -1,4 +1,4 @@
-# interaction
+# interactions
 
 Social events with a focus on safety and acceptance.
 

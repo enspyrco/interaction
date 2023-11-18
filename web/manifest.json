@@ -1,6 +1,6 @@
 {
-    "name": "interaction",
-    "short_name": "interaction",
+    "name": "interactions",
+    "short_name": "interactions",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

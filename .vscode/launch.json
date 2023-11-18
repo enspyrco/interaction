@@ -4,13 +4,13 @@
       "name": "vanilla",
       "request": "launch",
       "type": "dart",
-      "program": "${workspaceFolder:interaction}/lib/main.dart"
+      "program": "${workspaceFolder:interactions}/lib/main.dart"
     },
     {
       "name": "in-app-introspection",
       "request": "launch",
       "type": "dart",
-      "program": "${workspaceFolder:interaction}/lib/main.dart",
+      "program": "${workspaceFolder:interactions}/lib/main.dart",
       "toolArgs": [
         "--dart-define",
         "IN-APP-INTROSPECTION=true"
@@ -20,7 +20,7 @@
       "name": "devtools-introspection",
       "request": "launch",
       "type": "dart",
-      "program": "${workspaceFolder:interaction}/lib/main.dart",
+      "program": "${workspaceFolder:interactions}/lib/main.dart",
       "toolArgs": [
         "--dart-define",
         "DEVTOOLS-INTROSPECTION=true"

@@ -1,10 +1,10 @@
-name: interaction
+name: interactions
 description: Social events with a focus on safety and acceptance.
 publish_to: 'none'
 version: 0.0.0-a1
 
 environment:
-  sdk: '>=3.0.0 <4.0.0'
+  sdk: '>=3.2.0 <4.0.0'
 
 dependencies:
   flutter:

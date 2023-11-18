@@ -21,7 +21,7 @@ packages:
     description:
       path: "."
       ref: HEAD
-      resolved-ref: be0a13fa18897dd0d62dc2031bb1b55c294c9c75
+      resolved-ref: e429f22c9d94bc10922e28b86f19c15451d80e5b
       url: "https://github.com/enspyrco/apple_sign_in_for_perception"
     source: git
     version: "0.0.0-a1"
@@ -85,7 +85,7 @@ packages:
     description:
       path: "."
       ref: HEAD
-      resolved-ref: "3c544eb768ec35ba81efcbcd27595a2f8ffbd12f"
+      resolved-ref: "5707fd7dbf69e0ff002bcd898285401710be10c3"
       url: "https://github.com/enspyrco/enspyr_lints"
     source: git
     version: "0.0.0-a1"
@@ -178,10 +178,10 @@ packages:
     dependency: transitive
     description:
       name: flutter_lints
-      sha256: a25a15ebbdfc33ab1cd26c63a6ee519df92338a9c10f122adda92938253bef04
+      sha256: e2a421b7e59244faef694ba7b30562e489c2b489866e505074eb005cd7060db7
       url: "https://pub.dev"
     source: hosted
-    version: "2.0.3"
+    version: "3.0.1"
   flutter_test:
     dependency: "direct dev"
     description: flutter
@@ -197,7 +197,7 @@ packages:
     description:
       path: "."
       ref: HEAD
-      resolved-ref: d70705caa65be5d28b2ef207abb7b9c6afb51431
+      resolved-ref: "1dced6345f322c4eea084af7259188df7e84373c"
       url: "https://github.com/enspyrco/flutterfire_firebase_auth_for_perception"
     source: git
     version: "0.0.0-a1"
@@ -253,10 +253,10 @@ packages:
     dependency: transitive
     description:
       name: lints
-      sha256: "0a217c6c989d21039f1498c3ed9f3ed71b354e69873f13a8dfc3c9fe76f1b452"
+      sha256: cbf8d4b858bb0134ef3ef87841abdf8d63bfc255c266b7bf6b39daa1085c4290
       url: "https://pub.dev"
     source: hosted
-    version: "2.1.1"
+    version: "3.0.0"
   locator_for_perception:
     dependency: "direct overridden"
     description:
@@ -315,7 +315,7 @@ packages:
     description:
       path: "."
       ref: HEAD
-      resolved-ref: bdffb7b48d118bfe5bae18578a9b560c7ca80235
+      resolved-ref: de1d7c4df76a36c5deb0372a245d1fbbfe835f10
       url: "https://github.com/enspyrco/platform_default_sign_in_for_perception"
     source: git
     version: "0.0.0-a1"
@@ -323,18 +323,18 @@ packages:
     dependency: transitive
     description:
       name: plugin_platform_interface
-      sha256: da3fdfeccc4d4ff2da8f8c556704c08f912542c5fb3cf2233ed75372384a034d
+      sha256: f4f88d4a900933e7267e2b353594774fc0d07fb072b47eedcd5b54e1ea3269f8
       url: "https://pub.dev"
     source: hosted
-    version: "2.1.6"
+    version: "2.1.7"
   sign_in_with_apple:
     dependency: transitive
     description:
       name: sign_in_with_apple
-      sha256: "0975c23b9f8b30a80e27d5659a75993a093d4cb5f4eb7d23a9ccc586fea634e0"
+      sha256: ac3b113767dfdd765078c507dad9d4d9fe96b669cc7bd88fc36fc15376fb3400
       url: "https://pub.dev"
     source: hosted
-    version: "5.0.0"
+    version: "4.3.0"
   sign_in_with_apple_platform_interface:
     dependency: transitive
     description:
@@ -448,4 +448,4 @@ packages:
     version: "0.3.0"
 sdks:
   dart: ">=3.2.0 <4.0.0"
-  flutter: ">=3.7.6"
+  flutter: ">=3.3.0"
