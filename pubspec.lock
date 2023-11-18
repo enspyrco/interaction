@@ -21,7 +21,7 @@ packages:
     description:
       path: "."
       ref: HEAD
-      resolved-ref: "6c46c8ffeaa37562424df06e94cd1845dfcb1733"
+      resolved-ref: be0a13fa18897dd0d62dc2031bb1b55c294c9c75
       url: "https://github.com/enspyrco/apple_sign_in_for_perception"
     source: git
     version: "0.0.0-a1"
@@ -197,7 +197,7 @@ packages:
     description:
       path: "."
       ref: HEAD
-      resolved-ref: "1133da98c4b03e100c994250c49516326d539420"
+      resolved-ref: d70705caa65be5d28b2ef207abb7b9c6afb51431
       url: "https://github.com/enspyrco/flutterfire_firebase_auth_for_perception"
     source: git
     version: "0.0.0-a1"
@@ -315,7 +315,7 @@ packages:
     description:
       path: "."
       ref: HEAD
-      resolved-ref: "176089e7da0b6ec8469ebb0fe1228883c4f54b06"
+      resolved-ref: bdffb7b48d118bfe5bae18578a9b560c7ca80235
       url: "https://github.com/enspyrco/platform_default_sign_in_for_perception"
     source: git
     version: "0.0.0-a1"
