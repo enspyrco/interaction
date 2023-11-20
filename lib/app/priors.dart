@@ -26,8 +26,7 @@ Future<void> setupPriors({required Widget initialScreen}) async {
   initializeErrorHandling<AppBeliefs>();
   initializeIntrospection<AppBeliefs>();
 
-  initializeDefaultFlutterfireIdentity<AppBeliefs>(
-      initialScreen: initialScreen);
+  initializeIdentity<AppBeliefs>(initialScreen: initialScreen);
 
   // initializeFlutterfireFirebaseAuth<AppBeliefs>(
   //   signInScreen: SignInScreen<S>(),
@@ -52,7 +51,7 @@ Future<void> setupPriors({required Widget initialScreen}) async {
 }
 
 class OriginOfPerception extends StatelessWidget {
-  const OriginOfPerception({Key? key}) : super(key: key);
+  const OriginOfPerception({super.key});
 
   @override
   Widget build(BuildContext context) {
