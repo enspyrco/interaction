@@ -5,10 +5,10 @@ packages:
     dependency: transitive
     description:
       name: _flutterfire_internals
-      sha256: "8942974ee5dc932427704ede5e0db8b5f2b8f22172964544b56e6bd37f6c3634"
+      sha256: dd68ecea9f1e3556d385521bd21c7bafd6311a8c1e11abe2595ca27974f468ee
       url: "https://pub.dev"
     source: hosted
-    version: "1.3.12"
+    version: "1.3.13"
   abstractions:
     dependency: "direct overridden"
     description:
@@ -17,13 +17,11 @@ packages:
     source: path
     version: "0.0.0-a1"
   apple_sign_in_for_perception:
-    dependency: transitive
+    dependency: "direct overridden"
     description:
-      path: "."
-      ref: HEAD
-      resolved-ref: e429f22c9d94bc10922e28b86f19c15451d80e5b
-      url: "https://github.com/enspyrco/apple_sign_in_for_perception"
-    source: git
+      path: "../../utils/perception/identity/apple_sign_in_for_perception"
+      relative: true
+    source: path
     version: "0.0.0-a1"
   async:
     dependency: transitive
@@ -108,18 +106,18 @@ packages:
     dependency: transitive
     description:
       name: firebase_auth
-      sha256: a9281f9b149ad4cffbfe91725ee5159c63aca2f27c05e2e87052fc240abe212c
+      sha256: db5014f5dc1f34f3454cf6b984d2d63712a1a93bba5b1a96e5cac67d6e575fb1
       url: "https://pub.dev"
     source: hosted
-    version: "4.14.0"
+    version: "4.14.1"
   firebase_auth_platform_interface:
     dependency: transitive
     description:
       name: firebase_auth_platform_interface
-      sha256: def138b34bb97310ff748d1864f3ccd5b49d7424f35825f0df5455f16218ba99
+      sha256: "4d1973e2fcbf7d8665ed9b0766a617d45c9eb5dd08c1a6218ddfe45565fd777b"
       url: "https://pub.dev"
     source: hosted
-    version: "7.0.4"
+    version: "7.0.5"
   firebase_auth_service_interface:
     dependency: transitive
     description:
@@ -133,18 +131,18 @@ packages:
     dependency: transitive
     description:
       name: firebase_auth_web
-      sha256: e5fbb3453fbfff0dd8dfed5e3560248391f76a4c59ae9b331704e3443cffde77
+      sha256: "78899b86647dd91f520fe9cb42e93eb0d696cda7375cbb2225c6dfc5cce631aa"
       url: "https://pub.dev"
     source: hosted
-    version: "5.8.7"
+    version: "5.8.8"
   firebase_core:
     dependency: "direct main"
     description:
       name: firebase_core
-      sha256: "45f3f9babfc6f56fb94c3cd11584cf3c9672868228373b699b94427010e01dc3"
+      sha256: "471b46ea6a9af503184d4de691566887daedd312aec5baac5baa42d819f56446"
       url: "https://pub.dev"
     source: hosted
-    version: "2.22.0"
+    version: "2.23.0"
   firebase_core_platform_interface:
     dependency: transitive
     description:
@@ -193,13 +191,11 @@ packages:
     source: sdk
     version: "0.0.0"
   flutterfire_firebase_auth_for_perception:
-    dependency: transitive
+    dependency: "direct overridden"
     description:
-      path: "."
-      ref: HEAD
-      resolved-ref: "1dced6345f322c4eea084af7259188df7e84373c"
-      url: "https://github.com/enspyrco/flutterfire_firebase_auth_for_perception"
-    source: git
+      path: "../../utils/perception/identity/flutterfire_firebase_auth_for_perception"
+      relative: true
+    source: path
     version: "0.0.0-a1"
   framing_in_perception:
     dependency: "direct overridden"
@@ -213,7 +209,7 @@ packages:
     description:
       path: "."
       ref: HEAD
-      resolved-ref: e51637d784bf4b979c4a634b1f81b63c9d87314d
+      resolved-ref: f8473a131365f321ee896209251f551858114b56
       url: "https://github.com/enspyrco/google_sign_in_for_perception"
     source: git
     version: "0.0.0-a1"
@@ -311,13 +307,11 @@ packages:
     source: path
     version: "0.0.0-a1"
   platform_default_sign_in_for_perception:
-    dependency: transitive
+    dependency: "direct overridden"
     description:
-      path: "."
-      ref: HEAD
-      resolved-ref: de1d7c4df76a36c5deb0372a245d1fbbfe835f10
-      url: "https://github.com/enspyrco/platform_default_sign_in_for_perception"
-    source: git
+      path: "../../utils/perception/identity/platform_default_sign_in_for_perception"
+      relative: true
+    source: path
     version: "0.0.0-a1"
   plugin_platform_interface:
     dependency: transitive
@@ -409,7 +403,7 @@ packages:
     description:
       path: "."
       ref: HEAD
-      resolved-ref: "02f91c5cdd95de45714efca2da788395f9916cf2"
+      resolved-ref: "3f7faa489cb174d6c663deb8742ea158ebf86696"
       url: "https://github.com/enspyrco/test_utils_for_perception"
     source: git
     version: "0.0.0-a1"

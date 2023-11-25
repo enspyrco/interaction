@@ -22,16 +22,11 @@ Future<void> setupPriors({required Widget initialScreen}) async {
 
   // Add the app's systems
 
-  // Perform individual package initialization.
-  initializeErrorHandling<AppBeliefs>();
   initializeIntrospection<AppBeliefs>();
 
+  // Perform initialization for each aspect package.
+  initializeErrorHandling<AppBeliefs>();
   initializeIdentity<AppBeliefs>(initialScreen: initialScreen);
-
-  // initializeFlutterfireFirebaseAuth<AppBeliefs>(
-  //   signInScreen: SignInScreen<S>(),
-  //   initialScreen: initialScreen,
-  // );
 
   initializeFraming<AppBeliefs>(
     (
