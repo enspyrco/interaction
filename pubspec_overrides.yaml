@@ -15,14 +15,12 @@ dependency_overrides:
   percepts:
     path: ../../utils/perception/percepts
   
-  default_flutterfire_identity_for_perception:
-    path: ../../utils/perception/identity/default_flutterfire_identity_for_perception
+  default_firebase_identity_for_perception:
+    path: ../../utils/perception/identity/default_firebase_identity_for_perception
 
   # transient deps
   platform_default_sign_in_for_perception:
     path: ../../utils/perception/identity/platform_default_sign_in_for_perception
-  apple_sign_in_for_perception:
-    path: ../../utils/perception/identity/apple_sign_in_for_perception
   flutterfire_firebase_auth_for_perception:
     path: ../../utils/perception/identity/flutterfire_firebase_auth_for_perception
 

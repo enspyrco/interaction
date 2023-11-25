@@ -17,11 +17,13 @@ packages:
     source: path
     version: "0.0.0-a1"
   apple_sign_in_for_perception:
-    dependency: "direct overridden"
+    dependency: transitive
     description:
-      path: "../../utils/perception/identity/apple_sign_in_for_perception"
-      relative: true
-    source: path
+      path: "."
+      ref: HEAD
+      resolved-ref: "70fa1b2eac0b3151a42be4649ed3782b9134ef37"
+      url: "https://github.com/enspyrco/apple_sign_in_for_perception"
+    source: git
     version: "0.0.0-a1"
   async:
     dependency: transitive
@@ -71,10 +73,10 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "3.0.3"
-  default_flutterfire_identity_for_perception:
+  default_firebase_identity_for_perception:
     dependency: "direct main"
     description:
-      path: "../../utils/perception/identity/default_flutterfire_identity_for_perception"
+      path: "../../utils/perception/identity/default_firebase_identity_for_perception"
       relative: true
     source: path
     version: "0.0.0-a1"

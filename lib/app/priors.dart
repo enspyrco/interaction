@@ -1,6 +1,6 @@
 import 'dart:async';
 
-import 'package:default_flutterfire_identity_for_perception/default_flutterfire_identity_for_perception.dart';
+import 'package:default_firebase_identity_for_perception/default_firebase_identity_for_perception.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:introspection/introspection.dart';
