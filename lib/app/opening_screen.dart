@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:default_firebase_identity_for_perception/default_firebase_identity_for_perception.dart';
+import 'package:flutterfire_firebase_auth_for_perception/flutterfire_firebase_auth_for_perception.dart';
 
 import 'app_beliefs.dart';
 
