@@ -22,7 +22,7 @@ Future<void> setupPriors({required Widget initialScreen}) async {
 
   // Add the app's systems
 
-  initializeIntrospection<AppBeliefs>();
+  initializeIntrospection<AppBeliefs>(); // optional
 
   // Perform initialization for each aspect package.
   initializeErrorHandling<AppBeliefs>();
